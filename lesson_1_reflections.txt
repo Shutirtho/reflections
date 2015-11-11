@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It pin pointed to all the the differences in the two files.So it was faster to find a typo since I don't need to go through each and every line. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I won't need to keep different versions of my program.Thereby saving time required to save them.It would also help me debug programs which I had written before a considerable amount of time.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+1)Freedom to have as many or less number of commits one wants.
+2)Ability to choose the exact point in time when a commit occurs thereby allowing logical meaning to commits.
+Cons:
+1)Possibility of errors if one fails to do a commit at the right time.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+This is because Git is used for codes which in many cases involve multiple files.E.g HTML and CSS files whereas others rarely involve multiple files which are related.
+
+How can you use the commands git log and git diff to view the history of files?
+The git log gives us all the Commit ids,author name,time and message related to the changes.The git log command displays the changes in reverse chronological order with the most recent change at the top.To compare two particular commits as which and how many lines were deleted and added we use the git diff command (git diff old_id new_id).To exit the git diff or git log output at anytime press 'q'.
+
+How might using version control make you more confident to make changes that could break something?
+I can always use git checkout to revert back to previous commits and find out which commit introduced a particular error.And then fix it.(To return back to most recent commit-> git checkout most_recent_id)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want try using git for my Intro to HTML CSS portfolio project.
