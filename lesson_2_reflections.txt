@@ -12,3 +12,6 @@ We can commit each files separately with separate commit messages.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Some situations like a new experimental feature being added to the codebase,changing the language of the application suited to a particular region,etc.
 Branch would help because these features may not be a success and the application would needed to be used in the previous mode,or these maybe a success and may need to be incorporated in the main codebase.There also might be a bug in the master branch which can be resolved using branches.
+
+How do the diagrams help you visualize the branch structure?
+We can verify which commits are reachable at which branch and if some commits are lost.
