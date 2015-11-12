@@ -15,3 +15,6 @@ Branch would help because these features may not be a success and the applicatio
 
 How do the diagrams help you visualize the branch structure?
 We can verify which commits are reachable at which branch and if some commits are lost.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is combining the changes made in both the branches in the codebae.To visualize it to understand it better.
